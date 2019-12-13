@@ -34,4 +34,10 @@ fn main() {
     for month in months.iter() {
         println!("Value:{}", month);
     }
+
+    // ループ処理2
+    for index in (0..4).rev() {
+        println!("Mewmew!");
+    }
+    
 }
