@@ -1,8 +1,7 @@
 fn main() {
-
     // タプル
     let tup = (500, 6.4, -10);
-    let(x, y, z) = tup;
+    let (x, y, z) = tup;
     println!("The value of x is: {}", x);
     println!("The value of y is: {}", y);
     println!("The value of z is: {}", z);
@@ -18,7 +17,7 @@ fn main() {
     println!("");
 
     // 配列
-    let months = ["January","February","March","April"];
+    let months = ["January", "February", "March", "April"];
     let index = 0;
     let january = months[index];
     let february = months[index + 1];
@@ -29,5 +28,5 @@ fn main() {
     println!("The value of yy february: {}", february);
     println!("The value of march is: {}", march);
     println!("The value of april is: {}", april);
-
+    
 }
