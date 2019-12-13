@@ -28,5 +28,10 @@ fn main() {
     println!("The value of yy february: {}", february);
     println!("The value of march is: {}", march);
     println!("The value of april is: {}", april);
-    
+    println!("");
+
+    // ループ処理
+    for month in months.iter() {
+        println!("Value:{}", month);
+    }
 }
