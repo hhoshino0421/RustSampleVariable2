@@ -39,5 +39,10 @@ fn main() {
     for index in (0..4).rev() {
         println!("Mewmew!");
     }
+
+    // スタックとヒープ
+    let str1 = "Mewmew";
+    let str2 = String::value("");
     
+
 }
